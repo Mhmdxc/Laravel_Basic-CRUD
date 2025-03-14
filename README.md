@@ -1,3 +1,4 @@
+
 # Laravel Basic CRUD
 
 This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application that demonstrates the use of **RESTful APIs**, **Eloquent ORM**, **MVC architecture**, **Blade templates**, and **MySQL** as the database.
@@ -34,6 +35,11 @@ Clone the repository:
 ```sh
 git clone https://github.com/Mhmdxc/Laravel_Basic-CRUD.git
 cd Laravel_Basic-CRUD
+```
+
+Install PHP dependencies using Composer:
+```sh
+composer install
 ```
 
 Copy the example environment file:
