@@ -27,8 +27,9 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application t
 
 ### Prerequisites
 - [Docker](https://www.docker.com/) installed.
-- Git installed.
-- Node.js and npm installed.
+- [Git](https://git-scm.com/) installed.
+- [Node.js](https://nodejs.org/) installed (ensure **npm** is included during installation).
+- [Composer](https://getcomposer.org/) installed.
 
 ### Setup
 Clone the repository:
