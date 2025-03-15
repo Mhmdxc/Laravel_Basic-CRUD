@@ -10,16 +10,16 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application t
 - Uses **Eloquent ORM** for database interactions.
 
 ## :camera_flash: Screenshots
-### :house_with_garden: Home Page
+### :house_with_garden: Home Page:
 ![Home Page](screenshots/home-page.png)
 
-### :heavy_plus_sign: Create Product Page
+### :heavy_plus_sign: Create Product Page:
 ![Create Page](screenshots/create-page.png)
 
-### :memo: Products List Page
+### :memo: Products List Page:
 ![Products Page](screenshots/products-page.png)
 
-### :pencil2: Edit Product Page
+### :pencil2: Edit Product Page:
 ![Edit Page](screenshots/edit-page.png)
 
 ## :hammer_and_wrench: Installation
@@ -82,7 +82,7 @@ npm run dev
 ```
 <br>
 
-### :white_check_mark: Now, the application is running and should be accessible at **http://localhost**.
+### :white_check_mark: - Now, the application is running and should be accessible at **http://localhost**.
 <br>
 
 ## :x: Stopping the Application
@@ -117,7 +117,7 @@ npm run dev
  > This will start the front-end development server
 <br>
 
-### :white_check_mark: Once both commands are running, your application should be accessible at **http://localhost**.
+### :white_check_mark: - Once both commands are running, your application should be accessible at **http://localhost**.
 <br>
 
 ## :keyboard: API Endpoints
