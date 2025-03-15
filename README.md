@@ -80,10 +80,10 @@ npm run dev
 **To stop the application, follow these steps:**
 <br>
 <br>
-*** :white_medium_small_square: In the terminal where your front-end development server is running, press Ctrl + C to stop the 'npm run dev' process.***
+***:white_medium_small_square: In the terminal where your front-end development server is running, press Ctrl + C to stop the 'npm run dev' process.***
 <br>
 <br>
-*** :white_medium_small_square: Stop the Docker containers by running the following command:***
+***:white_medium_small_square: Stop the Docker containers by running the following command:***
 ```sh
 ./vendor/bin/sail down
 ```
