@@ -95,7 +95,7 @@ npm run dev
 ```sh
 ./vendor/bin/sail down
 ```
-This will stop the application and remove all running Docker containers.
+ > This will stop the application and remove all running Docker containers.
 <br>
 
 ## Starting the Application
