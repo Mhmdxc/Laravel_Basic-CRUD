@@ -31,51 +31,51 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application t
 - [Composer](https://getcomposer.org/) installed.
 
 ### :gear: Setup:
-***:heavy_minus_sign: Clone the repository:***
+***:white_medium_small_square: Clone the repository:***
 ```sh
 git clone https://github.com/Mhmdxc/Laravel_Basic-CRUD.git
 cd Laravel_Basic-CRUD
 ```
 
-***:heavy_minus_sign: Install PHP dependencies using Composer:***
+***:white_medium_small_square: Install PHP dependencies using Composer:***
 ```sh
 composer install
 ```
 
-***:heavy_minus_sign: Install JavaScript dependencies using npm:***
+***:white_medium_small_square: Install JavaScript dependencies using npm:***
 ```sh
 npm install
 ```
 
-***:heavy_minus_sign: Copy the example environment file:***
+***:white_medium_small_square: Copy the example environment file:***
 ```sh
 cp .env.example .env
 ```
  > Update the `.env` file with your database credentials and other necessary configurations.
 
-***:heavy_minus_sign: Running the Application***
+***:white_medium_small_square: Running the Application***
 Start the containers:
 ```sh
 ./vendor/bin/sail up -d
 ```
 
-***:heavy_minus_sign: Generate an application key:***
+***:white_medium_small_square: Generate an application key:***
 ```sh
 ./vendor/bin/sail artisan key:generate
 ```
 
-***:heavy_minus_sign: Run database migrations:***
+***:white_medium_small_square: Run database migrations:***
 ```sh
 ./vendor/bin/sail artisan migrate
 ```
  > After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.
 
-***:heavy_minus_sign: Start Vite (for Tailwind styles and JS bundling):***
+***:white_medium_small_square: Start Vite (for Tailwind styles and JS bundling):***
 ```sh
 npm run dev
 ```
 
-### :white_check_mark: Now, the application should be accessible at **http://localhost**.
+### :white_check_mark: Now, the application should be accessible at **http://localhost**. :white_check_mark:
 
 ## API Endpoints
 This application provides a RESTful API for managing products:
