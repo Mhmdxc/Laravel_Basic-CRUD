@@ -78,8 +78,8 @@ npm run dev
 
 ## Stopping the Application
 To stop the application, follow these steps:
-1- In the terminal where your front-end development server is running, press Ctrl + C to stop the 'npm run dev' process.
-2- stop the Docker containers by running the following command:
+***:white_medium_small_square: In the terminal where your front-end development server is running, press Ctrl + C to stop the 'npm run dev' process.***
+***:white_medium_small_square: Stop the Docker containers by running the following command:***
 ```sh
 ./vendor/bin/sail down
 ```
@@ -87,12 +87,13 @@ This will stop the application and remove all running Docker containers.
 
 ## Starting the Application
 To start the application, run the following commands:
-1- Start the Laravel Sail environment:
+***:white_medium_small_square: Start the Laravel Sail environment:***
 ```sh
 ./vendor/bin/sail up
 ```
  > This will start the Docker containers for your Laravel application.
-2- In another terminal window, run the following to start the development server:
+
+***:white_medium_small_square: In another terminal window, run the following to start the development server:***
 ```sh
 npm run dev
 ```
