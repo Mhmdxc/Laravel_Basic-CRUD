@@ -1,4 +1,4 @@
-# Laravel Basic CRUD
+# :triangular_flag_on_post: Laravel Basic CRUD
 
 This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application that demonstrates the use of **RESTful APIs**, **Eloquent ORM**, **MVC architecture**, **Blade templates**, and **MySQL** as the database.
 
