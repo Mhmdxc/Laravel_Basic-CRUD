@@ -51,7 +51,7 @@ npm install
 ```sh
 cp .env.example .env
 ```
-Update the `.env` file with your database credentials and other necessary configurations.
+*** :exclamation: Update the `.env` file with your database credentials and other necessary configurations. ***
 
  - Running the Application
 Start the containers:
@@ -68,7 +68,7 @@ Start the containers:
 ```sh
 ./vendor/bin/sail artisan migrate
 ```
-After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.
+*** :exclamation: After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command. ***
 
  - Start Vite (for Tailwind styles and JS bundling):
 ```sh
