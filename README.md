@@ -42,16 +42,19 @@ cd Laravel_Basic-CRUD
 composer install
 ```
 
+
  - Install JavaScript dependencies using npm:
 ```sh
 npm install
 ```
 
+
  - Copy the example environment file:
 ```sh
 cp .env.example .env
 ```
-*** :exclamation: Update the `.env` file with your database credentials and other necessary configurations. ***
+:exclamation: Update the `.env` file with your database credentials and other necessary configurations.
+
 
  - Running the Application
 Start the containers:
@@ -59,23 +62,28 @@ Start the containers:
 ./vendor/bin/sail up -d
 ```
 
+
  - Generate an application key:
 ```sh
 ./vendor/bin/sail artisan key:generate
 ```
 
+
  - Run database migrations:
 ```sh
 ./vendor/bin/sail artisan migrate
 ```
-    :exclamation: ***After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.***
+:exclamation: After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.***
+
 
  - Start Vite (for Tailwind styles and JS bundling):
 ```sh
 ./vendor/bin/sail npm run dev
 ```
 
+
 ### :white_check_mark: Now, the application should be accessible at **http://localhost**.
+
 
 ## API Endpoints
 This application provides a RESTful API for managing products:
