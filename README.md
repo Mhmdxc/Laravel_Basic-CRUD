@@ -81,7 +81,6 @@ cp .env.example .env
 npm run dev
 ```
 <br>
-
 ### :white_check_mark: Now, the application is running and should be accessible at **http://localhost**.
 
 ## Stopping the Application
@@ -96,7 +95,6 @@ npm run dev
 ./vendor/bin/sail down
 ```
  > This will stop the application and remove all running Docker containers.
-<br>
 
 ## Starting the Application
 **To start the application, run the following commands:**
