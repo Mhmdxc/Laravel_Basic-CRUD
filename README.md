@@ -1,4 +1,4 @@
-# :triangular_flag_on_post: Laravel Basic CRUD
+# :books: Laravel Basic CRUD
 
 This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application that demonstrates the use of **RESTful APIs**, **Eloquent ORM**, **MVC architecture**, **Blade templates**, and **MySQL** as the database.
 
@@ -82,6 +82,7 @@ npm run dev
 ```
 
 ### :white_check_mark: Now, the application is running and should be accessible at **http://localhost**.
+<br>
 
 ## :x: Stopping the Application
 **To stop the application, follow these steps:**
@@ -95,11 +96,12 @@ npm run dev
 ./vendor/bin/sail down
 ```
  > This will stop the application and remove all running Docker containers.
+<br>
 
 ## :o: Starting the Application
 **To start the application, run the following commands:**
 <br>
-<br>
+
 ***:white_medium_small_square: Start the Laravel Sail environment:***
 ```sh
 ./vendor/bin/sail up
@@ -114,23 +116,26 @@ npm run dev
  > This will start the front-end development server
 
 ### :white_check_mark: Once both commands are running, your application should be accessible at **http://localhost**.
+<br>
 
-## API Endpoints
+## :keyboard: API Endpoints
 This application provides a RESTful API for managing products:
 - `GET /products` - Retrieve all products.
 - `POST /products` - Create a new product.
 - `GET /products/{id}` - Retrieve a specific product.
 - `PUT /products/{id}` - Update a product.
 - `DELETE /products/{id}` - Delete a product.
+<br>
 
-## Technologies Used
+## :computer: Technologies Used
 - **Laravel** (PHP framework)
 - **MySQL** (Database)
 - **Blade** (Laravel templating engine)
 - **Eloquent ORM** (Database management)
 - **Tailwind CSS** (Styling)
 - **Vite** (Frontend asset bundling)
+<br>
 
-## License
+## :page_facing_up: License
 This project is open-source and available under the [MIT License](LICENSE).
 "
