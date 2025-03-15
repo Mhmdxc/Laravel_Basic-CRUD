@@ -31,46 +31,46 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application t
 - [Composer](https://getcomposer.org/) installed.
 
 ### :gear: Setup:
-***:eight_spoked_asterisk: Clone the repository:***
+***:heavy_minus_sign: Clone the repository:***
 ```sh
 git clone https://github.com/Mhmdxc/Laravel_Basic-CRUD.git
 cd Laravel_Basic-CRUD
 ```
 
-***:eight_spoked_asterisk: Install PHP dependencies using Composer:***
+***:heavy_minus_sign: Install PHP dependencies using Composer:***
 ```sh
 composer install
 ```
 
-***:eight_spoked_asterisk: Install JavaScript dependencies using npm:***
+***:heavy_minus_sign: Install JavaScript dependencies using npm:***
 ```sh
 npm install
 ```
 
-***:eight_spoked_asterisk: Copy the example environment file:***
+***:heavy_minus_sign: Copy the example environment file:***
 ```sh
 cp .env.example .env
 ```
  > Update the `.env` file with your database credentials and other necessary configurations.
 
-***Running the Application***
+***:heavy_minus_sign: Running the Application***
 Start the containers:
 ```sh
 ./vendor/bin/sail up -d
 ```
 
-***:eight_spoked_asterisk: Generate an application key:***
+***:heavy_minus_sign: Generate an application key:***
 ```sh
 ./vendor/bin/sail artisan key:generate
 ```
 
-**:eight_spoked_asterisk: Run database migrations:**
+***:heavy_minus_sign: Run database migrations:***
 ```sh
 ./vendor/bin/sail artisan migrate
 ```
  > After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.
 
-***:eight_spoked_asterisk: Start Vite (for Tailwind styles and JS bundling):***
+***:heavy_minus_sign: Start Vite (for Tailwind styles and JS bundling):***
 ```sh
 npm run dev
 ```
