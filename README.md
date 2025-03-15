@@ -77,7 +77,7 @@ npm run dev
 ### :white_check_mark: Now, the application should be accessible at **http://localhost**. :white_check_mark:
 
 ## Stopping the Application
-### To stop the application, follow these steps:
+**To stop the application, follow these steps:**
 <br>
 <br>
 *** :white_medium_small_square: In the terminal where your front-end development server is running, press Ctrl + C to stop the 'npm run dev' process.***
@@ -90,7 +90,7 @@ npm run dev
 This will stop the application and remove all running Docker containers.
 
 ## Starting the Application
-### To start the application, run the following commands:
+**To start the application, run the following commands:**
 <br>
 <br>
 ***:white_medium_small_square: Start the Laravel Sail environment:***
