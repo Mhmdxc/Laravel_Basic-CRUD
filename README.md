@@ -73,7 +73,7 @@ cp .env.example .env
 ```sh
 ./vendor/bin/sail artisan migrate
 ```
- > After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.
+ > After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a couple of minutes and then re-running the migration command.
 <br>
 
 ***:white_medium_small_square: Start Vite (for Tailwind styles and JS bundling):***
