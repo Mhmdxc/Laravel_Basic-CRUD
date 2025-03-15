@@ -2,7 +2,7 @@
 
 This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application that demonstrates the use of **RESTful APIs**, **Eloquent ORM**, **MVC architecture**, **Blade templates**, and **MySQL** as the database.
 
-## Features
+## :rocket: Features
 - Full CRUD functionality for managing products.
 - Uses **Laravel Sail** for easy local development in Docker.
 - Styled with **Tailwind CSS**.
