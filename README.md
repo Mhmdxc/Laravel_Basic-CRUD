@@ -80,6 +80,7 @@ cp .env.example .env
 ```sh
 npm run dev
 ```
+<br>
 
 ### :white_check_mark: Now, the application is running and should be accessible at **http://localhost**.
 <br>
@@ -114,6 +115,7 @@ npm run dev
 npm run dev
 ```
  > This will start the front-end development server
+<br>
 
 ### :white_check_mark: Once both commands are running, your application should be accessible at **http://localhost**.
 <br>
