@@ -83,7 +83,7 @@ npm run dev
 
 ### :white_check_mark: Now, the application is running and should be accessible at **http://localhost**.
 
-## Stopping the Application
+## :x: Stopping the Application
 **To stop the application, follow these steps:**
 <br>
 <br>
@@ -96,7 +96,7 @@ npm run dev
 ```
  > This will stop the application and remove all running Docker containers.
 
-## Starting the Application
+## :o: Starting the Application
 **To start the application, run the following commands:**
 <br>
 <br>
