@@ -36,45 +36,53 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application t
 git clone https://github.com/Mhmdxc/Laravel_Basic-CRUD.git
 cd Laravel_Basic-CRUD
 ```
+<br>
 
 ***:white_medium_small_square: Install PHP dependencies using Composer:***
 ```sh
 composer install
 ```
+<br>
 
 ***:white_medium_small_square: Install JavaScript dependencies using npm:***
 ```sh
 npm install
 ```
+<br>
 
 ***:white_medium_small_square: Copy the example environment file:***
 ```sh
 cp .env.example .env
 ```
  > Update the `.env` file with your database credentials and other necessary configurations.
+<br>
 
 ***:white_medium_small_square: Start the containers:***
 ```sh
 ./vendor/bin/sail up -d
 ```
+<br>
 
 ***:white_medium_small_square: Generate an application key:***
 ```sh
 ./vendor/bin/sail artisan key:generate
 ```
+<br>
 
 ***:white_medium_small_square: Run database migrations:***
 ```sh
 ./vendor/bin/sail artisan migrate
 ```
  > After running the migrations, if you encounter any issues, it's likely due to MySQL not being fully loaded yet. In such cases, try waiting a few moments and then re-running the migration command.
+<br>
 
 ***:white_medium_small_square: Start Vite (for Tailwind styles and JS bundling):***
 ```sh
 npm run dev
 ```
+<br>
 
-### :white_check_mark: Now, the application should be accessible at **http://localhost**. :white_check_mark:
+### :white_check_mark: Now, the application should be accessible at **http://localhost**.
 
 ## Stopping the Application
 **To stop the application, follow these steps:**
@@ -88,6 +96,7 @@ npm run dev
 ./vendor/bin/sail down
 ```
 This will stop the application and remove all running Docker containers.
+<br>
 
 ## Starting the Application
 **To start the application, run the following commands:**
@@ -98,14 +107,16 @@ This will stop the application and remove all running Docker containers.
 ./vendor/bin/sail up
 ```
  > This will start the Docker containers for your Laravel application.
+<br>
 
 ***:white_medium_small_square: In another terminal window, run the following to start the development server:***
 ```sh
 npm run dev
 ```
  > This will start the front-end development server
+<br>
 
-### :white_check_mark: Once both commands are running, your application should be accessible at **http://localhost**. :white_check_mark:
+### :white_check_mark: Once both commands are running, your application should be accessible at **http://localhost**.
 
 ## API Endpoints
 This application provides a RESTful API for managing products:
